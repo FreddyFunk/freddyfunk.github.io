@@ -11,8 +11,67 @@ _site/
 /vendor
 
 # Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
+# GitHub Pages will always use its own deployed version of pages-gem
 # This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.atom/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, RustRover, WebStorm, etc.)
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+cmake-build-*/
+out/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Emacs
+\#*\#
+.#*
+*.elc
+auto-save-list
+tramp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
